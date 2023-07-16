@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  
+  <body class="container">
+    <h1>Blissful Future</h1>
+
+    <button id="complimentButton">Tell me something nice</button>
+    <button id="fortuneButton">I want to know my Fortune</button>
+    
+<section>
+    <h2>Travelling to a New Place:</h2>
+    <form id="add-idea">
+      <label for="newCountryIdeas">Country Ideas</label>
+      <input type="text" id="newCountryIdeas" placeholder="Country you want to visit" />
+    <br />
+    <br />
+      <label for="newCityIdeas">City Ideas</label>
+      <input type="text" id="newCityIdeas" placeholder="City you want to visit" />
+    <br />
+    <br />
+      <label for="newSeasonIdeas">Season to Travel</label>
+      <input type="text" id="newSeasonIdeas" placeholder="Season you want to travel" />
+    <br />
+    <br />
+    <button type="submit" id="newIdeasButton">Submit my New Destination</button>
+  </form>
+</section>
+
+    <section>
+      <h2>Changed your mind? Update your traveling ideas</h2>
+      <form id="update-idea">
+      
+      <label for="updateIdeasID">Travel Ideas ID</label>
+      <input type="number" id="updateIdeasID" placeholder="Enter your travel idea ID" />
+      <br />
+      <br />
+      <label for="updateCountryIdeas">Country Ideas</label>
+      <input type="text" id="updateCountryIdeas" placeholder="Country you want to update" />
+    <br />
+    <br />
+      <label for="updateCityIdeas">City Ideas</label>
+      <input type="text" id="updateCityIdeas" placeholder="City you want to update" />
+    <br />
+    <br />
+      <label for="updateSeasonIdeas">Season to Travel</label>
+      <input type="text" id="updateSeasonIdeas" placeholder="Season you want to update" />
+    <br />
+    <br />
+    <button type="submit" id="updateIdeasButton">Submit my updated destination</button>
+  </form>
+</section>
+
+
+
+
+
+    <section id="display-section"></section>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
+
